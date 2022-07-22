@@ -13,7 +13,7 @@
         <a href="{{ url('/boards') }}">
             <button type="button">Home</button>
         </a>
-        <a href="">
+        <a href="{{ route('boards.edit', ["id" => $data->id]) }}">
             <button type="button">Edit</button>
         </a>
         <button type="button" id="btnDel">Delete</button>

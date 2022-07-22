@@ -33,7 +33,7 @@ Route::prefix('boards')->group(function() {
     Route::get('edit', [BoardController::class, 'edit'])
          ->name('boards.edit');
 
-    Route::get('update', [BoardController::class, 'update'])
+    Route::post('update', [BoardController::class, 'update'])
          ->name('boards.update');
 
     Route::get('destroy', [BoardController::class, 'destroy']);

@@ -13,10 +13,6 @@
         <a href="<?=route('boards.create')?>">
             <button type="button">Write</button>
         </a>
-
-        <a href="<?=route('boards.show', ['i_board' => 10])?>">
-            <button type="button">Detail</button>
-        </a>
     </div>
     <div>
         <table>
